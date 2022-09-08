@@ -8,7 +8,7 @@ for your awesome projects.</p>
             <a href="#category" class="btn-primary mt-8">Browse Projects</a>
         </div>
         <div class="mx-auto order-first md:order-last">
-            <img class="max-w-[472px] md:max-w-full" src="../assets/images/image-hero.png" alt="Hi Studio Website">
+            <img class="w-full max-w-[472px] md:max-w-full" src="../assets/images/image-hero.png" alt="Hi Studio Website">
         </div>
     </div>
     </div>
