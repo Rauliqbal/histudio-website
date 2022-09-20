@@ -35,7 +35,7 @@ export default {
   },
   mounted(){
     axios
-    .get('https://api-histudio.herokuapp.com/products')
+    .get('https://api-hi-studio.herokuapp.com/products')
     .then((response) => this.setProducts(response.data))
     .catch((error) => console.lo(error))
 
