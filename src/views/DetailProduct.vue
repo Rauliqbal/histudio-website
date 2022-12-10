@@ -1,29 +1,35 @@
 <template>
    <main class="container py-24 md:py-40">
-      <h1 class="text-xl md:text-3xl">{{ item.name }}</h1>
-      <p class="font-light text-gray-400 mb-8 mt-2">{{ item.custom_summary }}</p>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
-         <div class="col-span-2"><img class="rounded-2xl" :src="item.preview_url" alt="" /></div>
-         <div class="col-span-2 md:col-span-1">
+      <h1 class="text-xl sm:text-2xl md:text-4xl">{{ item.name }}</h1>
+      <p class="text-sm md:text-base font-light text-gray-400 mt-2 mb-8">{{ item.custom_summary }}</p>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 items-start">
+         <div class="col-span-2">
+            <img class="rounded-2xl w-full h-64 sm:h-96 md:h-[34rem] object-cover" :src="item.preview_url" alt="" />
+
+            <div class="mt-8">
+               <h3 class="section-title mb-8">Description Products</h3>
+               <div class="detail-desc mt-3" v-html="item.description"></div>
+            </div>
+         </div>
+
+         <aside class="col-span-2 lg:col-span-1 sticky top-4 items-start">
             <div class="border border-gray-400 rounded-2xl p-6">
-               <!-- <div class="flex items-center gap-2 mb-8">
+               <div class="flex items-center gap-3 mb-8">
                   <img class="w-14" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPcN7JjPMD_LaeGXuE_Jlmo5-nPPstKp8zIyiGK1MCjQ&s" alt="Project figma file" />
                   <div>
                      <h4 class="text-xl font-bold">Figma</h4>
                      <p class="font-light text-gray-400 mt-1">Project Included</p>
                   </div>
-               </div> -->
-               <div class="flex justify-between">
-                  <h6 class="text-2xl">Price</h6>
-
+               </div>
+               <p class="text-base md:text-lg text-gray-400 mt-2 capitalize">high-quality digital products for awesome projects</p>
+               <div class="flex justify-between mt-4 border-t border-gray-300 pt-4">
+                  <h6 class="text-xl">Price</h6>
                   <h6 class="text-2xl font-semibold">{{ item.formatted_price }}</h6>
                </div>
-               <a :href="item.short_url" class="gumroad-button mt-4 w-full" data-gumroad-overlay-checkout="true">I want this</a>
+               <a :href="item.short_url" class="btn-primary mt-4 w-full" data-gumroad-overlay-checkout="true">Get Now</a>
             </div>
-         </div>
+         </aside>
       </div>
-      <h3 class="section-title my-8">Description Products</h3>
-      <div class="detail-desc" v-html="item.description"></div>
    </main>
 </template>
 
@@ -55,26 +61,25 @@ onMounted(() => {
 </script>
 
 <style>
-.detail-desc h4,
-.detail-desc h2 {
+.detail-desc h4 {
    color: rgb(156 163 175);
 }
 
 .detail-desc h2 {
    font-size: 20px;
-   margin-bottom: 16px;
+   margin-bottom: 8px;
+   font-weight: 600;
+   color: rgb(120, 126, 136);
 }
 .detail-desc h4 {
-   font-size: 1rem;
-
-   margin-bottom: 12px;
-   font-weight: 600;
+   font-size: 18px;
 }
 
 .detail-desc ul {
    list-style-type: disc;
    padding-left: 1.2rem;
    color: rgb(156 163 175);
+   margin-top: 8px;
 }
 
 .detail-desc p {

@@ -1,5 +1,5 @@
 <template>
-   <div class="inset-x-0 w-full z-20 fixed lg:absolute bg-white lg:bg-transparent">
+   <div class="inset-x-0 w-full z-20 fixed lg:absolute bg-white lg:bg-transparent shadow">
       <div class="container py-4 md:py-0 lg:py-6">
          <div class="flex items-center justify-between lg:justify-start">
             <div class="flex items-center justify-end relative order-1 lg:order-2 pl-0 lg:pl-8">

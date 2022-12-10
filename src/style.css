@@ -18,6 +18,6 @@
 
 @layer components {
    .btn-primary {
-      @apply px-8 py-3 bg-blue-500 text-white font-semibold text-sm rounded-md inline-flex hover:bg-blue-800 hover:scale-105 active:scale-100 transition duration-200 ease-out;
+      @apply px-8 py-3 bg-blue-700 text-white font-semibold rounded-md inline-flex justify-center items-center hover:bg-blue-800 hover:scale-105 active:scale-100 transition duration-200 ease-out;
    }
 }
