@@ -3,21 +3,21 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-        @apply font-Poppins transition-all duration-300 ease-in-out
-    }
+   body {
+      @apply font-Poppins transition-all duration-300 ease-in-out;
+   }
 
-    .container {
-        @apply md:!max-w-2xl lg:!max-w-7xl px-5 
-    }
+   .container {
+      @apply md:!max-w-2xl lg:!max-w-7xl px-5;
+   }
 
-    .section-title {
-        @apply text-3xl font-bold
-    }
+   .section-title {
+      @apply text-3xl font-bold;
+   }
 }
 
 @layer components {
-    .btn-primary {
-        @apply px-4 py-3 bg-blue-500 text-white font-semibold text-sm rounded-md inline-flex hover:bg-blue-800 hover:scale-105 active:scale-100 transition duration-200 ease-out
-    }
+   .btn-primary {
+      @apply px-8 py-3 bg-blue-500 text-white font-semibold text-sm rounded-md inline-flex hover:bg-blue-800 hover:scale-105 active:scale-100 transition duration-200 ease-out;
+   }
 }

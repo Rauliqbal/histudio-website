@@ -1,27 +1,25 @@
 <template>
- <router-view v-slot="{Component}">
-    <Navbar/>
-    <transition name="fade" mode="out-in">      
-      <component :is="Component"/>
-    </transition>
-  </router-view>
+   <router-view v-slot="{ Component }">
+      <Navbar />
+      <transition name="fade" mode="out-in">
+         <component :is="Component" />
+      </transition>
+      <Footer />
+   </router-view>
 </template>
 
-<script>
+<script setup>
+import Footer from "./components/Footer.vue";
 import Navbar from "./components/Navbar.vue";
-export default {
-    components: { Navbar }
-}
 </script>
-
 
 <style type="text/css">
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.5s ease;
+   transition: opacity 0.5s ease;
 }
 .fade-enter-from,
 .fade-leave-to {
-  opacity: 0;
+   opacity: 0;
 }
 </style>
