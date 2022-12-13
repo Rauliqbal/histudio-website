@@ -12,15 +12,15 @@
             </div>
          </div>
 
-         <aside class="col-span-2 lg:col-span-1 sticky top-4 items-start">
+         <aside class="col-span-2 lg:col-span-1 bg-white sticky md:top-4 items-start">
             <div class="border border-gray-400 rounded-2xl p-6">
-               <div class="flex items-center gap-3 mb-8">
+               <!-- <div class="flex items-center gap-3 mb-8">
                   <img class="w-14" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPcN7JjPMD_LaeGXuE_Jlmo5-nPPstKp8zIyiGK1MCjQ&s" alt="Project figma file" />
                   <div>
                      <h4 class="text-xl font-bold">Figma</h4>
                      <p class="font-light text-gray-400 mt-1">Project Included</p>
                   </div>
-               </div>
+               </div> -->
                <p class="text-base md:text-lg text-gray-400 mt-2 capitalize">high-quality digital products for awesome projects</p>
                <div class="flex justify-between mt-4 border-t border-gray-300 pt-4">
                   <h6 class="text-xl">Price</h6>
@@ -68,7 +68,7 @@ onMounted(() => {
 .detail-desc h2 {
    font-size: 20px;
    margin-bottom: 8px;
-   font-weight: 600;
+   font-weight: 500;
    color: rgb(120, 126, 136);
 }
 .detail-desc h4 {
@@ -85,5 +85,12 @@ onMounted(() => {
 .detail-desc p {
    font-size: 1rem;
    color: rgb(156 163 175);
+   margin-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+   .detail-desc h2 {
+      font-size: 18px;
+   }
 }
 </style>
