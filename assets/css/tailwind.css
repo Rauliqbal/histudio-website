@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   body {
+      @apply bg-[#f1f1f1] font-work-sans;
+   }
+   .container {
+      @apply md:!max-w-2xl lg:!max-w-7xl px-5;
+   }
+}
+
+@layer components {
+   .btn {
+      @apply px-6 py-2 inline-flex font-bold leading-relaxed tracking-wide rounded-md;
+   }
+   .btn-primary {
+      @apply text-white  bg-gradient-to-r from-blue-400 to-violet-400 hover:-translate-y-1 hover:shadow-blue-400/30 hover:shadow-lg  focus:translate-y-1 focus:shadow-none  transition;
+   }
+}
+
+@layer utilities {
+   .text-gradient {
+      @apply text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-violet-400 bg-gradient-to-br;
+   }
+}

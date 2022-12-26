@@ -1,46 +1,42 @@
-# Vue 3 + Tailwind + Vite
+# Nuxt 3 Minimal Starter
 
-![Vite, Vue 3, Tailwind CSS](https://github.com/Rauliqbal/rauliqbal/blob/main/certificate/Frame%201.png?raw=true)
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-This template will help you start developing with Vue 3 and TailwindCSS in Vite, also comes with a Vue Router to create SPA (Single Page Application).
+## Setup
 
-This starter template includes:
+Make sure to install the dependencies:
 
-- [Vite](https://vitejs.dev/guide/)
-- [Vue 3](https://vuejs.org/guide/introduction.html)
-- [Tailwind CSS 3](https://tailwindcss.com/docs/configuration)
-- [Vue Router](https://github.com/vuejs/router)
+```bash
+# yarn
+yarn install
 
-
-### Getting Started
-
-Click Button Use This Template 
-
-## Clone this repository
-```
-git clone https://github.com/Rauliqbal/vue-tailwind-vite.git
-```
-
-## Project setup
-=======
-```
+# npm
 npm install
+
+# pnpm
+pnpm install --shamefully-hoist
 ```
 
-### Compiles and hot-reloads for development
-```
+## Development Server
+
+Start the development server on http://localhost:3000
+
+```bash
 npm run dev
 ```
 
-### Compiles and minifies for production
-```
+## Production
+
+Build the application for production:
+
+```bash
 npm run build
 ```
 
-### Customize configuration
-See [Docs Vue 3](https://vuejs.org/guide/introduction.html).
+Locally preview production build:
 
+```bash
+npm run preview
+```
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
