@@ -2,7 +2,7 @@
 <template>
    <div class="grid grid-cols-1 lg:grid-cols-12 items-center gap-6">
       <div class="col-span-7 lg:col-span-5 order-2 md:order-1 flex flex-col items- justify-center lg:block">
-         <h1 class="text-center md:text-left text-4xl md:text-5xl lg:leading-tight font-bold capitalize leading-tight">
+         <h1 class="section-title text-center md:text-left">
             creative <span class="text-gradient">design</span> <br />
             for a your project
          </h1>

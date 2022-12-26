@@ -3,7 +3,7 @@
    <div class="container bg-white rounded-3xl shadow-xl shadow-slate-300/50">
       <div class="grid grid-cols-1 lg:grid-cols-10 px-0 lg:px-28 py-10 gap-8 items-center">
          <div class="col-span-10 md:col-span-4">
-            <h1 class="text-center md:text-left text-4xl md:text-5xl font-bold md:leading-tight capitalize">Explore these <br /><span class="text-gradient">Categories</span></h1>
+            <h1 class="section-title text-center md:text-left">Explore these <br /><span class="text-gradient">Categories</span></h1>
             <p class="text-center md:text-left max-w-sm mx-auto lg:mx-0 text-gray-500 text-lg md:text-xl mt-6 tracking-wide">Explore product by Categories.</p>
          </div>
          <div class="col-span-10 lg:col-span-6 grid grid-cols-3 lg:grid-cols-6 gap-4">
