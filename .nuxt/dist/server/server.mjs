@@ -1,0 +1,1 @@
+export { default } from "file:///home/rauliqbal/Documents/project_coding/histudio-app/client/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
