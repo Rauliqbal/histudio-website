@@ -2,7 +2,7 @@
 const { product } = defineProps(["product"]);
 </script>
 <template>
-   <NuxtLink :to="'/product/' + product.id" class="flex flex-col bg-white rounded-xl overflow-hidden">
+   <NuxtLink :to="'/product/' + product.id" class="flex flex-col bg-white rounded-xl overflow-hidden hover:ring-8 hover:ring-gray-200 transition-all ease-out">
       <img class="w-full h-60 object-cover" :src="product.preview_url" :alt="'Thumbnail' + product.title" />
       <div class="px-5 py-4">
          <span class="inline-flex bg-blue-500 py-1 px-4 font-semibold text-sm rounded-full text-white">{{ product.tags[0] }}</span>
