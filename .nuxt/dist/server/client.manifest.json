@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "/home/rauliqbal/Documents/project_coding/histudio-app/client/node_modules/nuxt/dist/app/entry.mjs": {
+  "/home/rauliqbal/Documents/project_coding/histudio-app/histudio-website/node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "/home/rauliqbal/Documents/project_coding/histudio-app/client/node_modules/nuxt/dist/app/entry.mjs"
+    "file": "/home/rauliqbal/Documents/project_coding/histudio-app/histudio-website/node_modules/nuxt/dist/app/entry.mjs"
   }
 }

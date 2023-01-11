@@ -6180,15 +6180,15 @@ module.exports = {
   "content": {
     "relative": false,
     "files": [
-      "/home/rauliqbal/Documents/project_coding/histudio-app/client/components/**/*.{vue,js,ts}",
-      "/home/rauliqbal/Documents/project_coding/histudio-app/client/layouts/**/*.vue",
-      "/home/rauliqbal/Documents/project_coding/histudio-app/client/pages/**/*.vue",
-      "/home/rauliqbal/Documents/project_coding/histudio-app/client/composables/**/*.{js,ts}",
-      "/home/rauliqbal/Documents/project_coding/histudio-app/client/plugins/**/*.{js,ts}",
-      "/home/rauliqbal/Documents/project_coding/histudio-app/client/App.{js,ts,vue}",
-      "/home/rauliqbal/Documents/project_coding/histudio-app/client/app.{js,ts,vue}",
-      "/home/rauliqbal/Documents/project_coding/histudio-app/client/Error.{js,ts,vue}",
-      "/home/rauliqbal/Documents/project_coding/histudio-app/client/error.{js,ts,vue}"
+      "/home/rauliqbal/Documents/project_coding/histudio-app/histudio-website/components/**/*.{vue,js,ts}",
+      "/home/rauliqbal/Documents/project_coding/histudio-app/histudio-website/layouts/**/*.vue",
+      "/home/rauliqbal/Documents/project_coding/histudio-app/histudio-website/pages/**/*.vue",
+      "/home/rauliqbal/Documents/project_coding/histudio-app/histudio-website/composables/**/*.{js,ts}",
+      "/home/rauliqbal/Documents/project_coding/histudio-app/histudio-website/plugins/**/*.{js,ts}",
+      "/home/rauliqbal/Documents/project_coding/histudio-app/histudio-website/App.{js,ts,vue}",
+      "/home/rauliqbal/Documents/project_coding/histudio-app/histudio-website/app.{js,ts,vue}",
+      "/home/rauliqbal/Documents/project_coding/histudio-app/histudio-website/Error.{js,ts,vue}",
+      "/home/rauliqbal/Documents/project_coding/histudio-app/histudio-website/error.{js,ts,vue}"
     ],
     "extract": {},
     "transform": {}
