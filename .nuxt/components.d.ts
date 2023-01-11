@@ -2,6 +2,8 @@
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     'CardProduct': typeof import("../components/CardProduct.vue")['default']
+    'DetailpageDescription': typeof import("../components/Detailpage/Description.vue")['default']
+    'DetailpageDetail': typeof import("../components/Detailpage/Detail.vue")['default']
     'DetailpageThumbnail': typeof import("../components/Detailpage/Thumbnail.vue")['default']
     'HomepageCategories': typeof import("../components/Homepage/Categories.vue")['default']
     'HomepageHero': typeof import("../components/Homepage/Hero.vue")['default']
@@ -27,6 +29,8 @@ declare module '@vue/runtime-core' {
     'Html': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyCardProduct': typeof import("../components/CardProduct.vue")['default']
+    'LazyDetailpageDescription': typeof import("../components/Detailpage/Description.vue")['default']
+    'LazyDetailpageDetail': typeof import("../components/Detailpage/Detail.vue")['default']
     'LazyDetailpageThumbnail': typeof import("../components/Detailpage/Thumbnail.vue")['default']
     'LazyHomepageCategories': typeof import("../components/Homepage/Categories.vue")['default']
     'LazyHomepageHero': typeof import("../components/Homepage/Hero.vue")['default']
@@ -55,6 +59,8 @@ declare module '@vue/runtime-core' {
 }
 
 export const CardProduct: typeof import("../components/CardProduct.vue")['default']
+export const DetailpageDescription: typeof import("../components/Detailpage/Description.vue")['default']
+export const DetailpageDetail: typeof import("../components/Detailpage/Detail.vue")['default']
 export const DetailpageThumbnail: typeof import("../components/Detailpage/Thumbnail.vue")['default']
 export const HomepageCategories: typeof import("../components/Homepage/Categories.vue")['default']
 export const HomepageHero: typeof import("../components/Homepage/Hero.vue")['default']
@@ -80,6 +86,8 @@ export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyCardProduct: typeof import("../components/CardProduct.vue")['default']
+export const LazyDetailpageDescription: typeof import("../components/Detailpage/Description.vue")['default']
+export const LazyDetailpageDetail: typeof import("../components/Detailpage/Detail.vue")['default']
 export const LazyDetailpageThumbnail: typeof import("../components/Detailpage/Thumbnail.vue")['default']
 export const LazyHomepageCategories: typeof import("../components/Homepage/Categories.vue")['default']
 export const LazyHomepageHero: typeof import("../components/Homepage/Hero.vue")['default']
