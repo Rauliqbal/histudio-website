@@ -2,7 +2,7 @@
 const { product } = defineProps(["product"]);
 </script>
 <template>
-   <div :title="product.name" class="flex flex-col bg-white rounded-xl overflow-hidden hover:ring-8 hover:ring-gray-300/40 hover:backdrop-blur-sm transition-all ease-out">
+   <div :title="product.name" class="flex flex-col bg-white rounded-xl overflow-hidden hover:shadow-xl hover:shadow-gray-400/30 transition-all ease-out">
       <img class="w-full h-60 object-cover" :src="product.preview_url" :alt="'Thumbnail' + product.title" />
       <div class="px-5 py-4">
          <span class="text-gradient font-semibold text-lg capitalize font-space-grotesk">{{ product.tags[0] }}</span>

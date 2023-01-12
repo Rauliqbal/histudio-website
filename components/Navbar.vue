@@ -4,9 +4,9 @@
          <div class="grid grid-cols-3 items-center justify-between lg:justify-start">
             <div class="flex items-center justify-start lg:justify-center relative order-1 lg:order-2">
                <input type="checkbox" name="hamburger" id="hamburger" class="peer hidden" />
-               <label for="hamburger" class="peer-checked:hamburger block relative z-30 -mr-6 cursor-pointer lg:hidden">
-                  <div aria-hidden="true" class="m-auto h-0.5 w-6 rounded bg-gray-500 transition duration-300"></div>
-                  <div aria-hidden="true" class="m-auto mt-2 h-0.5 w-6 rounded bg-gray-500 transition duration-300"></div>
+               <label for="hamburger" class="peer-checked:hamburger relative z-30 -mr-6 cursor-pointer lg:hidden bg-white p-4 rounded-full peer-checked:shadow-none shadow-md transition-all">
+                  <div aria-hidden="true" class="m-auto h-0.5 w-6 rounded bg-gradient-to-r from-purple-400 to-blue-400 transition duration-300"></div>
+                  <div aria-hidden="true" class="m-auto mt-2 h-0.5 w-6 rounded bg-gradient-to-r from-purple-400 to-blue-400 transition duration-300"></div>
                </label>
 
                <div
