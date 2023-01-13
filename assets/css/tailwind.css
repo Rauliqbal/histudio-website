@@ -4,7 +4,7 @@
 
 @layer base {
    body {
-      @apply bg-[#f1f1f1] font-work-sans;
+      @apply bg-[#f6f8fd] font-work-sans;
    }
    .container {
       @apply md:!max-w-2xl lg:!max-w-7xl px-5;

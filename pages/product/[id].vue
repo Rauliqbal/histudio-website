@@ -5,13 +5,13 @@ const uri = "https://v1.nocodeapi.com/azura/gumroad/pRhFIjiSlmvJlAXF/products?id
 const { data: product } = await useFetch(uri);
 </script>
 <template>
-   <main>
+   <main class="pt-32 pb-16">
       <Head>
          <Title>{{ product.product.name }}</Title>
          <Meta name="description" :content="product.product.name" />
       </Head>
 
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6 items-start pt-32">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6 items-start">
          <div class="col-span-2">
             <DetailpageThumbnail :product="product.product" />
             <DetailpageDescription :product="product.product" />
