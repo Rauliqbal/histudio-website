@@ -8,7 +8,7 @@
          </h1>
          <p class="text-center lg:text-left max-w-sm mx-auto lg:mx-0 text-gray-500 text-lg md:text-xl mt-6 tracking-wide">We provide ready-to-use templates for your awesome projects.</p>
 
-         <a href="#" class="btn btn-primary mt-8 mx-auto lg:mx-0">Explore Now</a>
+         <a href="#scroll" class="btn btn-primary mt-8 mx-auto lg:mx-0">Explore Now</a>
       </div>
       <div class="order-1 md:order-2">
          <img src="~/assets/image/hero-image.png" alt="" />

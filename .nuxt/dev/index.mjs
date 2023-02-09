@@ -729,7 +729,7 @@ const renderer$1 = /*#__PURE__*/Object.freeze({
   'default': renderer
 });
 
-const _virtual__headStatic = {"headTags":"<meta charset=\"utf-16\">\n<title>Hi Studio </title>\n<meta name=\"viewport\" content=\"width=500, initial-scale=1\">\n<meta name=\"description\" content=\"Hi Studio, Design Assets, Website Design\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Work+Sans:wght@400;500;600;700&display=swap\">","bodyTags":"","bodyTagsOpen":"","htmlAttrs":"","bodyAttrs":""};
+const _virtual__headStatic = {"headTags":"<meta charset=\"utf-16\">\n<title>Hi Studio - Website Template and Design Resources</title>\n<meta name=\"viewport\" content=\"width=500, initial-scale=1\">\n<meta name=\"description\" content=\"Hi Studio, Design Assets, Website Design, Website Template, template website html css\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Work+Sans:wght@400;500;600;700&display=swap\">","bodyTags":"","bodyTagsOpen":"","htmlAttrs":"","bodyAttrs":""};
 
 const _virtual__headStatic$1 = /*#__PURE__*/Object.freeze({
   __proto__: null,

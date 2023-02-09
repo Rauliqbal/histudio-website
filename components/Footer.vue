@@ -34,7 +34,7 @@ const contact = [
       name: "+62 8967 3102 977",
    },
    {
-      name: "Cikarang Barat, Kab.Bekasi, Jawa Barat",
+      name: "Cikarang Barat, Kab. Bekasi, Jawa Barat, Indonesia",
    },
 ];
 
@@ -43,12 +43,12 @@ const date = new Date();
 
 <template>
    <footer>
-      <div class="border-t-2 border-gray-200">
+      <div class="bg-white rounded-t-3xl">
          <div class="container py-16">
             <div class="flex flex-col gap-20 md:gap-40 md:flex-row justify-between">
                <div>
                   <img src="~/assets/image/logo.svg" alt="" />
-                  <h4 class="text-gray-500 w-[280px] mt-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid quaerat.</h4>
+                  <h4 class="text-gray-500 w-[280px] mt-6">This website provides website templates and design resources for your project.</h4>
                   <div class="mt-8 flex gap-4">
                      <a href="#" class="text-3xl text-gray-500 hover:text-gray-700 transition duration-200 ease-out">
                         <i class="bx bxl-instagram"></i>
@@ -82,8 +82,8 @@ const date = new Date();
                   </div>
                </div>
             </div>
-            <h6 class="text-sm md:text-base text-gray-500 text-center pt-10 font-medium">&copy;Copyright 2022 - {{ date.getFullYear() }} • All rights reserved</h6>
          </div>
       </div>
+      <h6 class="text-sm md:text-base text-white text-center bg-gradient-to-tr from-blue-400 to-violet-400 py-8 font-medium">&copy;Copyright 2022 - {{ date.getFullYear() }} • All rights reserved</h6>
    </footer>
 </template>
