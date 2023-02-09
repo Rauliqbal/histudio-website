@@ -11,7 +11,7 @@
          <a href="#scroll" class="btn btn-primary mt-8 mx-auto lg:mx-0">Explore Now</a>
       </div>
       <div class="order-1 md:order-2">
-         <img src="~/assets/image/hero-image.png" alt="" />
+         <img src="~/assets/image/hero-image.webp" alt="" />
       </div>
    </div>
 </template>

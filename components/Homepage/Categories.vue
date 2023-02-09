@@ -9,20 +9,20 @@
          <div class="col-span-10 lg:col-span-6 grid grid-cols-3 lg:grid-cols-6 gap-4">
             <div class="sm:col-span-1 col-span-6 lg:col-span-2">
                <div class="bg-violet-200/80 grid grid-cols-3 sm:flex sm:flex-col gap-4 items-center justify-center px-8 py-4 rounded-xl group">
-                  <img class="grayscale group-hover:grayscale-0 group-hover:scale-110 ease-out transition-all" src="~/assets/image/icon-appdesign.svg" alt="Category Mobile Design" />
-                  <p class="col-span-2 sm:px-1 text-lg sm:text-xl font-semibold text-center text-gray-600 group-hover:text-violet-500">Mobile Design</p>
+                  <img class="grayscale group-hover:grayscale-0 scale-75 group-hover:scale-90 ease-out transition-all duration-300" src="~/assets/image/icon-appdesign.webp" alt="Category Mobile Design" />
+                  <p class="col-span-2 sm:px-1 text-lg sm:text-xl font-semibold text-center text-gray-600 transition-all duration-300 group-hover:text-violet-500">Mobile Design</p>
                </div>
             </div>
             <div class="sm:col-span-1 col-span-6 lg:col-span-2">
                <div class="bg-red-200/80 grid grid-cols-3 sm:flex sm:flex-col gap-4 items-center justify-center px-8 py-4 rounded-xl group">
-                  <img class="grayscale group-hover:grayscale-0 group-hover:scale-110 ease-out transition-all" src="~/assets/image/icon-webdesign.svg" alt="Category Website Design" />
-                  <p class="col-span-2 sm:px-1 text-lg sm:text-xl font-semibold text-center text-gray-600 group-hover:text-red-500">Website Design</p>
+                  <img class="grayscale group-hover:grayscale-0 scale-75 group-hover:scale-90 ease-out transition-all duration-300" src="~/assets/image/icon-webdesign.webp" alt="Category Website Design" />
+                  <p class="col-span-2 sm:px-1 text-lg sm:text-xl font-semibold text-center text-gray-600 transition-all duration-300 group-hover:text-red-500">Website Design</p>
                </div>
             </div>
             <div class="sm:col-span-1 col-span-6 lg:col-span-2">
                <div class="bg-sky-200/80 grid grid-cols-3 sm:flex sm:flex-col gap-4 items-center justify-center px-8 py-4 rounded-xl group">
-                  <img class="grayscale group-hover:grayscale-0 group-hover:scale-110 ease-out transition-all" src="~/assets/image/icon-webtempate.svg" alt="Category Wesbite Template" />
-                  <p class="col-span-2 sm:px-1 text-lg sm:text-xl font-semibold text-center text-gray-600 group-hover:text-sky-500">Website Template</p>
+                  <img class="grayscale group-hover:grayscale-0 scale-75 group-hover:scale-90 ease-out transition-all duration-300" src="~/assets/image/icon-webtempate.webp" alt="Category Wesbite Template" />
+                  <p class="col-span-2 sm:px-1 text-lg sm:text-xl font-semibold text-center text-gray-600 transition-all duration-300 group-hover:text-sky-500">Website Template</p>
                </div>
             </div>
          </div>
