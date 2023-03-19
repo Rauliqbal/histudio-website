@@ -9,6 +9,7 @@ export default defineNuxtConfig({
          meta: [
             // <meta name="description" content="My amazing site">
             { name: "description", content: "Hi Studio, Design Assets, Website Design, Website Template, template website html css" },
+            { name: "google-site-verification", content: "Dh5WebMpXLjyWXTl9crOY7Y3rTQ7c1Bgfxyvvz6p1XM" },
          ],
          link: [{ rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Work+Sans:wght@400;500;600;700&display=swap" }],
       },
